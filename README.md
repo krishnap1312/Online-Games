@@ -20,7 +20,7 @@
    ###### there is Screenshot for your reference:-
    ![Screenshot_20230109_070027](https://user-images.githubusercontent.com/113228728/211322617-527484e5-fdee-4d45-91a5-8da5b6506a86.png)
 
-  ### _Stop the Count.-
+  ### _Stop the Count.-_
   #### Stop the count and match the number as the given. The number will be displayed and the count will start. stop the count to match the number which is given. if you maatch the number you win. You can also select the game toughness as level. There are 3 level.
   ###### There is Screenshot for your reference:-
   ![Screenshot_20230109_070136](https://user-images.githubusercontent.com/113228728/211323299-766c6359-3e75-44eb-a426-6399cb2a1973.png)
