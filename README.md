@@ -9,7 +9,7 @@
 # Description
 
 ### Games in this Repository are as follows: -  
-  ### Guess The Number Game.
+  ### _Guess The Number Game._
    ##### In this Game you need to guess the number. If the number you guessed match with the Machine choosen Number then you will win.
    ###### there is Screenshot for you reference.
    ![Screenshot_20230109_065845](https://user-images.githubusercontent.com/113228728/211319874-2db01f32-495e-4e4e-a251-15f181d1fbdd.png)
