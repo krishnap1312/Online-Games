@@ -1,0 +1,292 @@
+/* Navigation */
+body{
+    margin: 0%;
+    padding: 0%;
+    background-image: url(./pexels-joão-jesus-925743.jpg);
+    background-size: contain;
+    background-position: center;
+}
+.Navigation-nav{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    justify-content: center;
+    border: 2px solid black;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.Navigation-nav img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0%;
+    left: 0%;
+    object-fit: cover;
+}
+
+.Navigation-nav li{
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    color: #fff;
+    mix-blend-mode: multiply;
+    text-align: center;
+    font-weight: 500;
+    font-size: 180%;
+    padding: 3%;
+}
+
+.Navigation-nav li::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 2px;
+    background-color:#E5B8F4;
+    border-radius: 4px;
+    scale:  1 0;
+    transform-origin: left;
+    transition: scale .5s;
+    
+}
+.Navigation-nav li:hover::before{
+    scale: 1 6;
+}
+.Navigation-nav li>span:hover{
+    cursor: pointer;
+}
+/* Navigation Closed */
+
+/* Games */
+.Games{
+    
+    display: list-item;
+    text-align: center;
+    margin: 10%;
+    /* background-image: linear-gradient(to right, #b13127 ,#dc2430);
+    mix-blend-mode:soft-light; */
+    background-origin: content-box;
+    color: black;
+}
+
+.Number-Guess{
+    margin: .1%;
+    padding: 1%;
+    font-size: 180%;
+    border: 4px solid black;
+    margin: 10% 30% ;
+    box-shadow: rgba(255, 146, 171, 0.525) 0px 8px 24px, rgb(255, 135, 243) 0px 16px 56px, rgb(255, 0, 0) 0px 24px 80px;
+} 
+.GivenNumber, select,textarea{
+    background-color: #FFEBB7;
+    color: #243763;
+    font-weight: bold;
+    font-size: 140%;
+    text-align: center;
+    width: 12%;
+   
+}
+.NG-Button{
+  margin: 10% 5%;
+  padding: 10px;
+  width: 50%;
+  font-weight: bold;
+  font-size: 140%;
+  text-align: center;
+  border: 4px solid #243763;
+  border-radius: 22px 44px 22px 44px;
+}
+
+.SPS{
+  border: 4px solid black;
+  margin: 10% 30% ;
+  text-align: center;
+}
+.radio-sps>div>img{
+  width: 12%;
+  height: 12%;
+  padding: 1%;
+}
+.SPS-head{
+  font-size: 250%;
+  font-weight: bold;
+}
+.radio-sps{
+  display: block;
+  accent-color: red;
+  
+}
+input[type=radio] {
+  border: 0px;
+  width: 100%;
+  height: 2em;
+  
+}
+input[type=radio]{
+  cursor: pointer;
+}
+
+.btn-radio{
+  padding: 5%;
+  margin: 15% 5%;
+  border: 2px solid #243763;
+  border-radius: 20px;
+  color: #EAE7B1;
+  background-color: #3C6255;
+  font-size: 140%;
+}
+
+.btn-radio:hover,.StopCount-btn:hover{
+  cursor: pointer;
+}
+
+.Number-Head,.Number-Head1{
+  color: #000;
+  font-size: 250%;
+  font-weight: 500;
+  color: #E5B8F4;
+}
+
+.StopCount{
+  font-size: 150%;
+  font-weight: 500;
+  color: #E5B8F4;
+}
+
+.input-nm,select,textarea{
+  background-color: #243763;
+  border: none;
+  padding: 1%;
+  width: 10%;
+  margin: 10%;
+  font-size: 240%;
+}
+.Level{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.StopCount-btn{
+  color: #FCFFE7;
+  background-color: #2B3467;
+  padding: 3%;
+  font-size: 140%;
+  border: 1px solid rgb(232, 221, 221);
+  border-radius: 48px 80px / 80px 48px;
+  margin: 5%;
+}
+
+.div-num{
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+}
+
+.StopCount-Div{
+  border: 4px solid white;
+  margin: 10% 30% ;
+  box-shadow: 50px 10px 140px #E5B8F4;
+  text-align: center;
+}
+.StopCount-Div:hover{
+  animation-name: StopCountAni;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  
+}
+@keyframes StopCountAni {
+  0%{
+    box-shadow: 50px 10px 40px #E5B8F4;
+  }
+
+  15%{
+    box-shadow: 50px 20px 140px #E5B8F4;
+  }
+  30%{
+    box-shadow: 40px 30px 160px #E5B8F4;
+  }
+  45%{
+    box-shadow: 30px 40px 140px #E5B8F4;
+  }
+  60%{
+    box-shadow: 20px 50px 160px #E5B8F4;
+  }
+  75%{
+    box-shadow: 30px 40px 140px #E5B8F4;
+  }
+  90%{
+    box-shadow: 40px 30px 160px #E5B8F4;
+  }
+  100%{
+    box-shadow: 50px 20px 140px #E5B8F4;
+  }
+}
+
+.StopAt,.StopAt1{
+  font-size: 140%;
+  color: wheat;
+
+}
+/* Games closed*/
+
+
+
+
+
+
+
+
+
+
+
+
+/* The snackbar - position it at the bottom and in the middle of the screen */
+#snackbar {
+    visibility: hidden; /* Hidden by default. Visible on click */
+    min-width: 25%; /* Set a default minimum width */
+    margin-left: -13%; /* Divide value of min-width by 2 */
+    background-color: rgb(197, 67, 67); /* Black background color */
+    color: #fff; /* White text color */
+    text-align: center; /* Centered text */
+    border-radius: 40px 12px; /* Rounded borders */
+    padding: 16px; /* Padding */
+    position: fixed; /* Sit on top of the screen */
+    z-index: -1; /* Add a z-index if needed */
+    left: 15%; /* Center the snackbar */
+    bottom: 10%; /* 30px from the bottom */
+  }
+  
+  /* Show the snackbar when clicking on a button (class added with JavaScript) */
+  #snackbar.show {
+    visibility: visible; /* Show the snackbar */
+    /* Add animation: Take 0.5 seconds to fade in and out the snackbar.
+    However, delay the fade out process for 2.5 seconds */
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  }
+  
+  /* Animations to fade the snackbar in and out */
+  @-webkit-keyframes fadein {
+    from {bottom: 0; opacity: .5;}
+    to {bottom: 10%; opacity: 1;}
+  }
+  
+  @keyframes fadein {
+    from {bottom: 0; opacity: 0.5;}
+    to {bottom: 10%; opacity: 1;}
+  }
+  
+  @-webkit-keyframes fadeout {
+    from {bottom: 10%; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+  }
+  
+  @keyframes fadeout {
+    from {bottom: 10%; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+  }

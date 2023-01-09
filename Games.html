@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="Games.css">
+    <title>Games</title>
+</head>
+<body id="body">
+    <!-- Navigation Bar -->
+    <!-- <div class="Navigation">
+        <nav class="Navigation-nav">
+            <img src="./Decent.jpg" alt="" class="plo">
+            <li><span>Number Guess</span></li>
+            <li><span>Rock Paper Scissors</span></li>
+            <li><span>Stop The Count</span></li>
+        </nav>
+    </div> -->
+    <!-- Navigation Closed -->
+
+    <!-- Games -->
+    <div class="Games">
+        <div class="Number-Guess">
+            <p class="NumberGuess">Guess the number between 1 - 10 <br> if You guess number correctly you win</p>
+            <div>
+                <h1 class="AutoNumber">0</h1>
+                <div><input type="number" name="" id="" class="GivenNumber" min="1" max="10"></div>
+                
+                <div><button class="NG-Button" onclick="CheckGuess()">Check</button></div>
+            </div>
+        </div>
+
+        <div class="SPS">
+            <div>
+                <p class="SPS-head">Play Rock Paper Scissors</p>
+                <p class="SPS-head">Choose Your Move</p>
+            </div>
+            <div class="radio-sps">
+                <div id="gif"></div>
+                <div><img src="./icons8-fist-78.png" alt=""><br><input type="radio" name="RPS" id="" value="Rock"></div>
+                <div><img src="./icons8-hand-80.png" alt=""><br><input type="radio" name="RPS" id="" value="Paper"></div>
+                <div><img src="./icons8-hand-peace-96.png" alt=""><br><input type="radio" name="RPS" id="" value="Scissors"></div>
+                <button class="btn-radio" onclick="radios()">submit</button>
+                <button class="btn-radio" onclick="location.reload()">Try again</button>
+                <div class="new-btn"></div>
+            </div>    
+        </div>
+
+        <div class="StopCount-Div">
+            <div class="Stop-content">
+                <p class="StopCount">Stop The Count as the Number Given</p>
+            </div>
+            <div>
+                <div class="div-num">
+                    <h3 class="Number-Head"> 0 </h3>
+                    <!-- <h3 class="Number-Head1"> 0 </h3> -->
+                </div>
+            
+                <br>
+                <div class="Level">
+                    <button class="StopCount-btn" onclick="Level1()">Level1</button>
+                    <button class="StopCount-btn" onclick="Level2()">Level2</button>
+                    <button class="StopCount-btn" onclick="Level3()">Level3</button>
+                </div>
+                <div>
+                    <h3 class="StopAt">Stop at</h3>
+                    <h3 class="StopAt1"></h3>
+                </div>
+                <button class = " StopCount-btn" onclick="Stop()"> Stop</button>
+            </div>
+        </div>
+    </div>
+    <!--Games Closed  -->
+
+
+
+
+<div id="snackbar">You Guessed it correctly</div>
+
+</body>
+
+<script src="./Games.js"></script>
+
+</html>
