@@ -15,8 +15,7 @@
    ![Screenshot_20230109_065845](https://user-images.githubusercontent.com/113228728/211319874-2db01f32-495e-4e4e-a251-15f181d1fbdd.png)
 
   ### Rock Paper Scissors.
-   #### classic Game which we played since out Childhood. Rock Paper Scissors is a simple hand game that is played by two people. The game is usually played by counting 
-   #### to three in unison and simultaneously throwing one of three hand signs representing rock, paper, or scissors. The winner is determined by the rules: rock beats      #### scissors, scissors beats paper, and paper beats rock.
+   #### classic Game which we played since out Childhood. Rock Paper Scissors is a simple hand game that is played by two people. The game is usually played by counting to three in unison and simultaneously throwing one of three hand signs representing rock, paper, or scissors. The winner is determined by the rules: rock beats scissors, scissors beats paper, and paper beats rock.
 
 Our collection includes a variety of games, from classic arcade games to modern puzzle games. There's something for everyone here.
 
