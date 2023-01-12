@@ -38,20 +38,6 @@ body{
     padding: 3%;
 }
 
-.Navigation-nav li::before{
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100vw;
-    height: 2px;
-    background-color:#E5B8F4;
-    border-radius: 4px;
-    scale:  1 0;
-    transform-origin: left;
-    transition: scale .5s;
-    
-}
 .Navigation-nav li:hover::before{
     scale: 1 6;
 }
